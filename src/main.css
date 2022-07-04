@@ -1,0 +1,33 @@
+body {
+  width: 210px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.option-set {
+  box-sizing: border-box;
+  margin: 16px;
+}
+
+.option {
+  height: 24px;
+}
+
+.option:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+hr.dotted {
+  border-top: 2px dotted #bbb;
+}
